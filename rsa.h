@@ -1,6 +1,6 @@
 #pragma once
-#include <wincrypt.h>
-#pragma comment(lib ,"wincrypt.lib")
+#include <windows.h>
+#include <Wincrypt.h>
 
 class rsa
 {
