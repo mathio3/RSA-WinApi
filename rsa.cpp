@@ -1,13 +1,14 @@
 #include "rsa.h"
  
-void rsa::SetPrivk()
+
+void rsa::SetPrivk(const char* pv)
 {
-	rsa::Pem_Priv_Key
+	rsa::Pem_Priv_Key = pv;
 }
 
-void rsa::SetPubk()
+void rsa::SetPubk(const char* pk)
 {
-	rsa::Pem_Public_Key
+	rsa::Pem_Public_Key = pk;
 }
 
 BYTE * rsa::enc() {}
